@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    
     }
 body>div {
     padding: 0 50px;
@@ -55,8 +56,12 @@ body>div {
     color: #E5E7EB;
     /* border: purple solid; */
 }
-.sign-up>button {
+button {
     max-width: 100px;
+    height: 20px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: white 1px solid;
     /* border: purple solid; */
 }
 .container-top>img {
@@ -69,19 +74,19 @@ body>div {
 .container-second {
     display: flex;
     flex-direction: column;
-    border: red solid;
+    /* border: red solid; */
     align-items: center;
 }
 
 .images {
-    border: blue solid;
+    /* border: blue solid; */
     display: flex;
     justify-content: space-between;
     width: 75%;
 }
 
 .image-text {
-    border: green solid;
+    /* border: green solid; */
     display: flex;
     flex-direction: column;
     max-width: 150px;
@@ -95,15 +100,36 @@ body>div {
 .container-third {
     display: flex;
     flex-direction: column;
-    border: red solid;
+    /* border: red solid; */
+    align-items: center;
+    background-color: #E2E4EB;
 }
+.quote {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
 
 .container-fourth {
     display: flex;
-    border: red solid;
+    justify-content: space-around;
+    margin: 50px 200px;
+    background-color: #3882F6;
+    align-items: center;
+    /* border: red solid; */
 }
 
+
+
 .container-footer {
-    border: red solid;
+    /* border: red solid; */
+    background-color: #1F2937;
+    color: #f9FAF8;
+}
+.container-footer>p {
+    margin: 0 auto;
+    height: 20px;
+    text-align: center;
 }
 
