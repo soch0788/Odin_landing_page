@@ -9,7 +9,7 @@ body {
 }
 
 body>div {
-    padding: 0 150px;
+    padding: 0 min(150px, 1rem);
 }
 
 .container-header {
@@ -28,7 +28,7 @@ body>div {
 
 .header-logo {
     flex: 6;
-    margin-left: 20px;
+    margin-left: min(20px, .5rem);
     font-size: 24px;
 
     /* border: blue solid; */
@@ -84,7 +84,7 @@ button {
 .container-top>img {
     /* border: blue solid; */
     flex: 1;
-    max-width: 50%;
+    width: min(50%, 1000px);
     height: auto;
     padding-bottom: 50px;
 }
@@ -104,7 +104,7 @@ button {
     justify-content: space-between;
     width: 95%;
     text-align: center;
-    gap: 50px;
+    gap: min(50px, 1rem);
     /* flex-wrap: wrap; */
     
 }
@@ -124,8 +124,8 @@ button {
     /* border: green solid; */
     display: flex;
     flex-direction: column;
-    max-width: 400px;
-    width: 400px;
+    
+    width: min(100vh, 400px);
     align-items: center;
     justify-content: space-between;
 }
@@ -145,8 +145,8 @@ button {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    padding: 0 30%;
-    min-width: 500px;
+    padding: 0 min(30%,3rem);
+    width: max(500px, 10vh);
     margin-bottom: 0px;;
 }
 .author {
@@ -165,19 +165,19 @@ button {
     background-color: #3882F6;
     align-items: center;
     color: #f9FAF8;
-    width: 400px;
+    width: max(400px, 50%);
     /* border: red solid; */
 }
 
 .container-fourth>button {
     width: 100px;
-    margin-right: -100px;
-    flex: 1;
+    margin-right: 0;
+    flex: 1 1 1;
 }
 .pre-footer-left {
     display: flex;
     flex-direction: column;
-    margin-left: -100px;
+    margin-left: 00px;
 }
 .sign-title {
 font-size: 36px;
